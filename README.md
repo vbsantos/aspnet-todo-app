@@ -6,8 +6,6 @@
 
 - Para rodar em um container: `docker-compose up --build`
 
----
-
 ## Processo
 
 1.  `$ dotnet new mvc --auth Individual`
@@ -26,6 +24,7 @@
     > Para adicionar NuGet package
 
     `$ dotnet tool install --global dotnet-aspnet-codegenerator`
+    
     `$ dotnet tool uninstall --global dotnet-aspnet-codegenerator`
     > Passos extras do **.NET Core**
 
